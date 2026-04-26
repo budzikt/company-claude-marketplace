@@ -18,6 +18,15 @@ Claude Code marketplace tools — skills for scaffolding, converting, and verify
 |--------|-------------|
 | `claude-marketplace-tools` | Skills for creating, converting, and validating Claude Code plugin marketplaces |
 
+## Available skills
+
+| Skill | Trigger phrases | Description |
+|-------|----------------|-------------|
+| `claude-marketplace-init` | "init a marketplace", "scaffold a marketplace repo", "create a new plugin marketplace" | Scaffolds a complete, git-distributable Claude Code plugin marketplace from scratch — creates the full directory tree, `marketplace.json`, `plugin.json` stubs, and README |
+| `claude-marketplace-convert-mcp-to-marketplace` | "convert my MCP to a plugin", "make my MCP shareable", "package MCP server for distribution" | Converts a standalone MCP server config (from `settings.json` or `.mcp.json`) into a proper marketplace plugin, handling path rewrites and env var documentation |
+| `claude-marketplace-convert-skill-to-marketplace` | "convert my skills to a marketplace", "package my commands for distribution", "make my skills shareable" | Packages existing `.claude/skills/`, `.claude/commands/`, agents, and hooks into a distributable marketplace plugin with the correct structure |
+| `claude-marketplace-verify-structure` | "verify my marketplace", "is my plugin ready to publish?", "marketplace readiness check" | Audits a marketplace or plugin against all structural contracts Claude Code enforces at install time — reports PASS / WARN / FAIL per check with specific fixes |
+
 ## Install a plugin
 
 ```shell

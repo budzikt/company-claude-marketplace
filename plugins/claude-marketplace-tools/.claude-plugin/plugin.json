@@ -1,0 +1,7 @@
+{
+  "name": "claude-marketplace-tools",
+  "description": "Skills for creating, converting, and validating Claude Code plugin marketplaces.",
+  "author": {
+    "name": "budzikt"
+  }
+}

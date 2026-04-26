@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "company-claude-marketplace",
+  "description": "Claude Code marketplace tools — skills for scaffolding, converting, and verifying Claude plugin marketplaces.",
+  "owner": {
+    "name": "budzikt",
+    "email": "budzikt@gmail.com"
+  },
+  "metadata": {
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "claude-marketplace-tools",
+      "source": "./plugins/claude-marketplace-tools",
+      "description": "Skills for creating, converting, and validating Claude Code plugin marketplaces.",
+      "author": {
+        "name": "budzikt"
+      }
+    }
+  ]
+}

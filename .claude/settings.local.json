@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp ~/.claude/skills/claude-marketplace-init/SKILL.md \"C:/Users/budzi/projects/company-marketplace/plugins/claude-marketplace-tools/skills/claude-marketplace-init/SKILL.md\")",
+      "Bash(cp ~/.claude/skills/claude-marketplace-convert-mcp-to-marketplace/SKILL.md \"C:/Users/budzi/projects/company-marketplace/plugins/claude-marketplace-tools/skills/claude-marketplace-convert-mcp-to-marketplace/SKILL.md\")",
+      "Bash(cp ~/.claude/skills/claude-marketplace-convert-skill-to-marketplace/SKILL.md \"C:/Users/budzi/projects/company-marketplace/plugins/claude-marketplace-tools/skills/claude-marketplace-convert-skill-to-marketplace/SKILL.md\")",
+      "Bash(cp ~/.claude/skills/claude-marketplace-verify-structure/SKILL.md \"C:/Users/budzi/projects/company-marketplace/plugins/claude-marketplace-tools/skills/claude-marketplace-verify-structure/SKILL.md\")"
+    ]
+  }
+}
